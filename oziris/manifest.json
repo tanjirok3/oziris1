@@ -1,0 +1,53 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Oziris par tanjiro.k3",
+        "description": "Oziris",
+        "uuid": "824bd593-a26f-4c40-8e38-676e03e0811c",
+        "min_engine_version": [
+            1, 
+            14, 
+            0
+        ],
+        "version": [
+            1, 
+            0, 
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Behavior Pack Module",
+            "type": "data",
+            "uuid": "290ac79e-dab3-41f6-aab9-d6e60fa656ef",
+            "version": [
+                1, 
+                0, 
+                0
+            ]
+        },
+        {
+            "description": "Gametest Module",
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/index.js",
+            "uuid": "5b529a67-b0fa-43e8-9c69-3ed9872be357",
+            "version": [ 
+                1, 
+                0, 
+                0
+            ]
+        }
+      
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.1.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.0.0-beta"
+        }
+    ]
+}
